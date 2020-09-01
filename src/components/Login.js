@@ -15,6 +15,14 @@ const Login = (props) => {
       <div className="row">
         <div className="col-12 col-md-6 offset-md-3">
           <form>
+            <div className="row">
+              <div
+                className="col-12 col-md-6 offset-md-2"
+                style={{ color: "floralwhite" }}
+              >
+                <h1>Login</h1>
+              </div>
+            </div>
             <div className="form-group row">
               <label className="col-md-2 col-form-label">First Name</label>
               <div className="col-md-10">

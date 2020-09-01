@@ -12,6 +12,9 @@ class Exam1 extends Component {
       3: "ReactJS uses __ to increase performance",
       4: "In ReactJS, props can be used to pass",
       5: "The state in react can be updated by call to seState method. These calls are___",
+      6: "Who developed React..?",
+      7: "How can you access the state of a component from inside of a member function?",
+      8: "How many elements does a react component return "
     },
     answers: {
       1: {
@@ -44,6 +47,24 @@ class Exam1 extends Component {
         3: "Are synchronous but can be made synchronous when required",
         4: "Can not say",
       },
+      6: {
+        1: "Apple",
+        2: "Google",
+        3: "Twitter",
+        4: "Facebook",
+      },
+      7: {
+        1: "this.getState()",
+        2: "this.values",
+        3: "this.prototype.stateValue",
+        4: "this.state",
+      },
+      8: {
+        1: "2 Elements",
+        2: "1 Element",
+        3: "None of These",
+        4: "Multiple Elements",
+      },
     },
     correctAnswers: {
       1: "1",
@@ -51,12 +72,15 @@ class Exam1 extends Component {
       3: "2",
       4: "3",
       5: "2",
+      6: "4",
+      7: "2",
+      8: "4",
     },
     correctAnswer: 0,
     clickedAnswer: 0,
     step: 1,
     score: 0,
-    min: 2,
+    min: 4,
   };
 
   // the method that checks the correct answer

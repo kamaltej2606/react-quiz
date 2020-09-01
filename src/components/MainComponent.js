@@ -31,7 +31,7 @@ function Main() {
   };
   const handleEnd = (sc) => {
     score = sc;
-    if (score > 2) status = "Pass";
+    if (score > 4) status = "Pass";
     sendData();
   };
 

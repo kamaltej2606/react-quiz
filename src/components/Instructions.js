@@ -9,7 +9,7 @@ const Instructions = ({ match }) => {
       <div className="mt-4">
         <ul>
           <li style={{ color: "floralwhite" }}>This ia multiple choice quiz</li>
-          <li style={{ color: "floralwhite" }}>This quiz consists of 5 questions on the subject "React".</li>
+          <li style={{ color: "floralwhite" }}>This quiz consists of 8 questions on the subject "React".</li>
           <li style={{ color: "floralwhite" }}>The question which is correct will be indicated by "Green" colour.</li>
           <li style={{ color: "floralwhite" }}>The question which is wrong will be indicated by "Red" colour.</li>
           <li style={{ color: "floralwhite" }}>If you select the correct the answer the score will be incremented by one</li>
